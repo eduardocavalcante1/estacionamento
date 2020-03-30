@@ -17,6 +17,7 @@
     <header>
         <img src="img/Logo.png" alt="Estacionamento 24 horas - Logo" width="100" height="100">  
         <nav>
+            <a href="#" id="menu-icon"></a>   
             <ul>
                 <li> <a href="index.html">Home</a> </li>
                 <li> <a href="servicos.html">Serviços</a> </li>
@@ -26,9 +27,7 @@
             </ul>
         </nav>
          <!--icone vazio para  smartphone  --> 
-        <a href="#" id="menu-icon"></a>   
-        <p id="logo">Estacionamento e Lava Jato 24 horas</p>
-        <p>Segurança e praticidade em um só lugar.</p> 
+        <p id="slogan">Estacionamento 24 horas</p>
 
     </header>
 
@@ -36,9 +35,8 @@
     <main>
 
         <!-- Seção do Contato -->
-        <h1>Contato</h1>
+        <h1>Entre em contato conosco</h1>
         <section id="contato">
-            <h2>Fale Conosco</h2>
             <form action="/contato/" method="POST">
                 <label for="nome">Nome</label>
                 <input type="text" name="nome" id="nome" placeholder="Digite seu nome completo"> <br>
@@ -50,42 +48,44 @@
                 <input type="text"   name="e-mail" id="e-mail" placeholder="Digite seu e-mail"> <br>
 
                 <label for="mensagem">Mensagem</label>
-                <textarea rows="10" cols="50" id="mensagem" placeholder="Sua mensagem aqui"></textarea>> <br>
+                
+                <textarea rows="10" cols="50" id="mensagem" placeholder="Sua mensagem aqui"> </textarea> <br>
 
-                <button  type="submit">Enviar</button>
+                <button class="button" type="submit">Enviar</button>
             </form>
         </section>
 
-        <section>
-                <h2>Nossa Localização</h2>
-    			Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered the undoubtable source. Lorem Ipsum comes from sections 1.10.32 and 1.10.33 of "de Finibus Bonorum et Malorum" (The Extremes of Good and Evil) by Cicero, written in 45 BC. This book is a treatise on the theory of ethics, very popular during the Renaissance. The first line of Lorem Ipsum, "Lorem ipsum dolor sit amet..", comes from a line in section 1.10.32.
-                The standard chunk of Lorem Ipsum used since the 1500s is reproduced below for those interested. Sections 1.10.32 and 1.10.33 from "de Finibus Bonorum et Malorum" by Cicero are also reproduced in their exact original form, accompanied by English versions from the 1914 translation by H. Rackham.
+        <section id="informacoes">
+                <div class="detalhes">
+    			 Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered the undoubtable source. Lorem Ipsum comes from sections 1.10.32 and 1.10.33 of "de Finibus Bonorum et Malorum" (The Extremes of Good and Evil) by Cicero, written in 45 BC. This book is a treatise on the theory of ethics, very popular during the Renaissance. The first line of Lorem Ipsum, "Lorem ipsum dolor sit amet..", comes from a line in section 1.10.32.
+                 The standard chunk of Lorem Ipsum used since the 1500s is reproduced below for those interested. Sections 1.10.32 and 1.10.33 from "de Finibus Bonorum et Malorum" by Cicero are also reproduced in their exact original form, accompanied by English versions from the 1914 translation by H. Rackham.
+                </div>
 
-                <div id="imgservico1">
-                        <img src="img/Estacione.png" width="200" height="200" alt="Estacionamento">
+                <div class="map">
+                        <frame src="<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3969.2642614917518!2d-35.212025085866394!3d-5.818305058993388!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x7b2fff0b14f3fcb%3A0xc3dd4b1f8942acf1!2sCondom%C3%ADnio%20Empresarial%20Trade%20Center%20-%20Av.%20Romualdo%20Galv%C3%A3o%2C%201703%20-%20Lagoa%20Nova%2C%20Natal%20-%20RN%2C%2059022-100!5e0!3m2!1spt-BR!2sbr!4v1585602061110!5m2!1spt-BR!2sbr" width=100% height="450" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0">
+                        </iframe>
                 </div>
     	</section>               
 
     </main>
 
     <footer>
-    	<nav>
-    		<ul>
-    			<li> <a href="index.html">Home</a> </li>
-				<li> <a href="servicos.html">Serviços</a> </li>
-				<li> <a href="sobre.html">Sobre</a> </li>
-				<li> <a href="planos.html">Planos</a> </li>
-				<li> <a href="contato.html">Contato</a> </li>
-    		</ul>
-    	</nav>
+        <nav id="nav-footer">
+            <ul>
+                <li> <a href="index.html">Home</a> </li>
+                <li> <a href="servicos.html">Serviços</a> </li>
+                <li> <a href="sobre.html">Sobre</a> </li>
+                <li> <a href="planos.html">Planos</a> </li>
+                <li> <a href="contato.html">Contato</a> </li>
+            </ul>
+        </nav>
 
-    	<section id="copyright">
+        <section id="copyright">
             <h2>Direitos Autorais</h2>
-    		<p>Copyright - Todos os direitos reservados | Máxima Computação</p>
-    	</section>
+            <p>Copyright - Todos os direitos reservados | Máxima Computação</p>
+        </section>
+     </footer>
 
-    	
-	 </footer>
 </body>
 
 </html>
